@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@media (min-width: 1000)
+{
+   body
+   {
+       font-size: 80%; 
+   }
+}
+body, html {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 90%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Raleway';
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 4000px; /* Used to enable scrolling */
+    width:100vw;
+    background: linear-gradient( #214d4a 0%, #63898d 30%, #ffffff 40%);
+  }
+  .leftlogo{
+    margin-left: 3%;
+    position: fixed;
+    font-size: 200%;
+  }
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 8; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-right: 50px;
+    margin: top
+  }
+  .openbtn {
+    font-size: 150%;
+    position: sticky;
+    cursor: pointer;
+    background-color:transparent;
+    color: white;
+    border: none;
+    z-index: 2;
+  }
+  .black{
+    color: black;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(175, 175, 175);
+  }
+  .rightfix{
+    z-index: 4;
+    position: fixed;
+    float: right;
+    right: 0;
+    top: 0;
+    margin-right: 3%;
+}
+#blackmenu{
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+#whitemenu{
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+  #fademe{
+    margin-top: 3%;
+    margin-left: 10px;
+      width: 70%;
+      color: white;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 2s ease-in;
+  }
+  #fademe2{
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+#fademe3{
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+#logo{
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+#logo1{
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+  .opener{
+      position: relative;
+      color: white;
+      height: 100vh;
+  }
+  .top{
+      display: inline;
+      position: relative;
+      letter-spacing: .15em;
+  }
+  .left{
+      margin-left: 4%;
+      display: inline-block;
+  }
+  .leftstick{
+    font-size: 200%;
+    color: white;
+    margin-left: 3%;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    font-size: 200%;
+}
+  .right{
+    z-index: 6;
+      position: sticky;
+      float: right;
+      right: 0;
+      top: 0;
+      margin-right: 3%;
+  }
+  .line{
+      width: 60%;
+      margin-left: 10%;
+      position: absolute;
+      left: 0;
+      border-bottom: 1px solid whitesmoke;
+  }
+  .downline{
+      position: absolute;
+      left: 16.5%;
+      top: 85%;
+      height: 1000px;
+      width: 3px;
+      background: linear-gradient(180deg, #ffffff 0%, #000000 100%);
+  }
+  .continue{
+    position: absolute;
+    right: 80%;
+    top: 85%;
+    letter-spacing: .15em;
+    transform: rotate(90deg) translate(0%, -100%)
+  }
+  .continue a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  .typewriter{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%)
+  }
+  .typewriter h1 {
+      font-size: 400%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(20, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  .content{
+    margin-top: 50px;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+
+  }
+  .title{
+      font-size: 150%;
+      margin-left: 19%;
+  }
+  .title p{
+    margin-top: 20px;
+  }
+
+  .grid-container {
+    margin-left: 18%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 35px);
+    grid-gap: 1px;
+    grid-auto-rows: 35px;
+    
+  }
+  
+  .grid-container > div{
+    position: relative;
+    background-color: whitesmoke;
+    grid-row-end: span 7;
+    border: 1px solid whitesmoke;
+  }
+  .item1 {
+    perspective: 1000px;
+  }
+  .line2{
+    width: 60%;
+      margin-left: 20%;
+      position: absolute;
+      left: 0;
+      top: 10%;
+      border-bottom: 1px solid black;
+  }
+  .mid{
+    grid-column-end: span 7;
+  }
+  .wide{
+    grid-column-end: span 8;
+  }
+  .wider{
+    grid-column-end: span 10;
+  }
+  .ferrislink{
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      bottom: 0;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+  }
+  .ferris{
+    height: 400%;
+    width: 400%;
+    overflow: hidden;
+    display: inline-block;
+    -ms-zoom: 0.25;
+    -moz-transform: scale(0.25);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.25);
+    -webkit-transform-origin: 0 0;
+  }
+  .borderanimation{
+    height: 125%;
+    width: 125%;
+    overflow: hidden;
+    display: inline-block;
+    -ms-zoom: 0.8;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.8);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.8);
+    -webkit-transform-origin: 0 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .item1:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #214d4a;
+    color: white;
+    transform: rotateY(180deg);
+  }
+ 
+  .flex-grid {
+    position: relative;
+    display: flex;
+    height:300px;
+  }
+  .itema {
+    flex: 1;
+  }
+  .flip{
+    perspective: 1000px;
+    position: relative;
+    height: 300px;
+    width:300px;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
