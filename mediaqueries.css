@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1000px) {
+    body {
+      font-size: 70%;
+    }
+    .line2{
+        top:8%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 50%;
+    }
+    .line2{
+        top:6%;
+    }
+  }

@@ -1,0 +1,83 @@
+
+.words{
+    position: relative;
+    height: 850px;
+    font-size: 150%;
+  }
+  #youcontainer{
+      height: 100%;
+      position: absolute;
+      left: 300px;
+  }
+  #you{
+      position: sticky;
+      color: black;
+      top: 0px;
+  }
+  #cancont{
+    height: 100%;
+    position: absolute;
+    left: 410px;
+}
+#can{
+    margin-top: 100px;
+    position: sticky;
+    color: black;
+    top: 0px;
+}
+#makecont{
+  height: 100%;
+  position: absolute;
+  left: 515px;
+}
+#make{
+    margin-top: 200px;
+  position: sticky;
+  color: black;
+  top: 0px;
+}
+#whatcont{
+  height: 100%;
+  position: absolute;
+  left: 660px;
+}
+#what{
+margin-top: 300px;
+  position: sticky;
+  color: black;
+  top: 0px;
+}
+#you2cont{
+    height: 100%;
+    position: absolute;
+    left: 795px;
+  }
+  #you2{
+  margin-top: 400px;
+    position: sticky;
+    color: black;
+    top: 0px;
+  }
+  
+  #can2cont{
+    height: 100%;
+    position: absolute;
+    left: 900px;
+  }
+  #can2{
+  margin-top: 500px;;
+    position: sticky;
+    color: black;
+    top: 0px;
+  }
+  #dreamcont{
+    height: 100%;
+    position: absolute;
+    left: 1000px;
+  }
+  #dream{
+  margin-top: 600px;;
+    position: sticky;
+    color: black;
+    top: 0px;
+  }

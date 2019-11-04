@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formstyles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div class="centre">
+    <div class="left"><h1>Sign Up</h1></div>
+    <div class="formbox">
+        <form action="/Congrats.html">
+            <h1>NAME</h1>
+            <input type="text" name="search" placeholder="Full Name" required>
+            <h1>E-MAIL</h1>
+            <input type="email" name="search" placeholder="E-Mail" required>
+            <h1>PASSWORD</h1>
+            <input type="password" id='pw1' title="Password must contain at least 6 characters, including UPPER/lowercase and numbers"  name="pw1" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" >
+            <h1>CONFIRM PASSWORD</h1>
+            <input type="password" name="pw2" title="Password must match the one above" placeholder="Confirm" required oninput="check(this)">
+            <input type="submit" value="Register" >
+        </form>
+    </div>
+    <br style="clear:both;"/>
+</div>
+
+
+
+</body>
+<script language='javascript' type='text/javascript'>
+    function check(input) {
+        if (input.value != document.getElementById('pw1').value) {
+            input.setCustomValidity('Password Must be Matching.');
+        } else {
+            // input is valid -- reset the error message
+            input.setCustomValidity('');
+        }
+    }
+</script>
+</html>
