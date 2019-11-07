@@ -10,17 +10,17 @@
 <body>
 <div class="centre">
     <div class="left"><h1>Sign Up</h1></div>
-    <div class="formbox">
-        <form action="/Congrats.html">
+    <div class="formbox" >
+        <form action="mail_handler.php" method="post">
             <h1>NAME</h1>
-            <input type="text" name="search" placeholder="Full Name" required>
+            <input type="text" name="fname" placeholder="Full Name" required>
             <h1>E-MAIL</h1>
-            <input type="email" name="search" placeholder="E-Mail" required>
+            <input type="email" name="email" placeholder="E-Mail" required>
             <h1>PASSWORD</h1>
             <input type="password" id='pw1' title="Password must contain at least 6 characters, including UPPER/lowercase and numbers"  name="pw1" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" >
             <h1>CONFIRM PASSWORD</h1>
             <input type="password" name="pw2" title="Password must match the one above" placeholder="Confirm" required oninput="check(this)">
-            <input type="submit" value="Register" >
+            <input type="submit" name ='submit' value="Register" >
         </form>
     </div>
     <br style="clear:both;"/>
