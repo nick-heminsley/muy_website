@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="stylespage.css">
+<head>
+</head>
+<body>
+<div class="topbar">
+    <div class="tophalf">
+        <div class="logo">
+            <img src="googlelogo.png" alt="googlelogo" width="90px">
+        </div>
+        <span class="searchbar">
+            <input type="text" placeholder="Lemons">
+        </span>
+        <a href="#signin" id='signin'>Sign in</a>
+        <img src="54917.svg" id='rightimg' alt="dots" width="16px">
+        
+        
+    </div>
+    <div class="bottomhalf">
+        <div  class="toolbar">
+            <a href="#all" class='tabs' id='all'>All</a>
+            <a href="#all" class='tabs'>Images</a>
+            <a href="#all" class='tabs'>Shopping</a>
+            <a href="#all" class='tabs'>News</a>
+            <a href="#all" class='tabs'>Videos</a>
+            <a href="#all" class='tabs'>More</a>
+            <a href="#all" class='tabs' id='settings'>Settings</a>
+            <a href="#all" class='tabs'>Tools</a>
+
+        </div>
+    </div>
+
+</div>
+<div class='results'>
+    <div class="result">
+        <a href='#search1'>6 Evidence-Based Health Benefits of Lemons - Healthline</a>
+        <p class="location" >https://www.healthline.com › nutrition › 6-lemon-health-benefits</p>
+        <p class="text">The lemon is a very healthy fruit that is loaded with vitamin C and fiber. Here are 6 ways that lemons can improve your health.</p>
+    </div>  
+    <div class="alsoask">
+        <div class="titleask">People also ask</div>
+        <button type="button" class="entryask">What are the health benefits of lemon?</button>
+        <div class="expandable">
+                <p><strong> Here are seven ways your body may benefit from lemon water.</strong> </p>
+                <ul>
+                    <li>It promotes hydration</li>
+                    <li>It's a good source of vitamin C</li>
+                    <li>It supports weight loss</li>
+                    <li>It improves your skin quality</li>
+                </ul>
+                <a href="#lemons">7 Benefits of Lemon Water: Vitamin C, Weight Loss, Skin, and More</a>
+              </div>
+        <button type="button" class="entryask">What do lemons do for you?</button>
+        <div class="expandable">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+        <button type="button" class="entryask">Is a Lemon naturally occuring?</button>
+        <div class="expandable">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+        <button type="button" class="entryask">Is eating Lemons bad for you?</button>
+        <div class="expandable">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+        <button type="button" class="entryask">Can lemon water reduce belly fat?</button>
+        <div class="expandable">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+    </div>
+    <div class="result">
+            <a href='#search1'>Lemon - Wikipedia</a>
+            <p class="location" >https://en.wikipedia.org › wiki › Lemon</p>
+            <p class="text">The lemon, Citrus limon (L.) Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.</p>
+    </div>  
+    <div class="result">
+            <a href='#search1'>Lemon - Wikipedia</a>
+            <p class="location" >https://en.wikipedia.org › wiki › Lemon</p>
+            <p class="text">The lemon, Citrus limon (L.) Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.</p>
+    </div> 
+</div>
+
+<div class="rightsidebox">
+    <div class="images"><img src="lemon.jpeg" alt="lemon"></div>
+    <div class="lemtitle">
+        <h4>Lemon</h4>
+        <p>Fruit</p>
+    </div>
+    <p>The lemon, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.</p>
+
+</div>
+
+<script>
+        var coll = document.getElementsByClassName("entryask");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

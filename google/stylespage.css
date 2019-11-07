@@ -1,0 +1,187 @@
+body, html {
+	height:100%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif
+}
+* {box-sizing: border-box}
+.topbar{
+    width: 100%;
+    object-fit: contain;
+    padding-top: 10px;
+    margin:auto;
+}
+.tophalf{
+    padding-top: 10px;
+    height: 50%;
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+    float: left;
+    padding-left:20px;
+    padding-top: 2px;
+}
+
+input[type=text] {
+    width: 650px;
+    height: 45px;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: none;
+    border: 0.5pt solid rgb(190, 190, 190);
+    background-image: url('searchicon.png');
+    background-position: 580px 9px;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    -webkit-transition: box-shadow 0.1s ease-in-out;
+    transition: box-shadow 0.1s ease-in-out;
+    padding-left: 35px;
+    font-size: 20pt;
+  }
+
+#signin{
+    background-color: #4285f4;
+    padding: 8px 22px;
+    color: white;
+    margin: 0px 24px;
+    border-radius: 3px;
+    text-decoration: none;
+    float: right;
+
+}
+#rightimg{
+    padding-top: 6px;
+    float: right;
+    margin-right: 6px;
+}
+
+.searchbar{
+    padding-left: 50px;
+    width: 500px;
+}
+.bottomhalf{
+    padding-top: 20px;
+    width: 100%;
+    display: block;
+    height:50%;
+}
+.toolbar{
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.tabs{
+    text-decoration: none;
+    color:gray;
+    float: left;
+    padding: 10px 17px;
+    font-size: 85%;
+}
+.tabs:hover{
+    color: #1f66d8;
+}
+.tabs:active{
+    border-bottom: 2px solid blue;
+}
+#all{
+    margin-left: 160px;
+    border-bottom: 2px solid blue;
+}
+#settings{
+    margin-left: 50px;
+}
+.results{
+    float: left;
+    display: block;
+    padding-left: 150px;
+    width: 800px;
+}
+.result{
+    margin: 30px 0px;
+    font-size: 100%;
+}
+.result a{
+    font-size: 130%;
+    text-decoration: none;
+}
+.location{
+    margin: 0;
+    color: green;
+    font-size: 100%;
+}
+.text{
+    margin: 0;
+    color:grey;
+    font-size: 100%;
+}
+.alsoask{
+    margin: 30px 0px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color:rgb(65, 65, 65);
+}
+.titleask{
+    font-size: 150%;
+    padding: 10px;
+}
+.entryask{
+    text-align: left;
+    position: relative;
+    width:100%;
+    padding: 10px;
+    font-size: 120%;
+    border:none;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.expandable{
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    border-top: 1px solid lightgray;
+}
+.expandable a{
+    padding:10px;
+    font-size: 120%;
+    text-decoration: none;
+}
+.rightsidebox{
+    border:1px solid lightgray;
+    display: block;
+    float: left;
+    margin:20px 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+.images img{
+    border-radius: 10px;
+}
+.lemtitle{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.lemtitle h4{
+    font-size:150%;
+    margin: 0;
+}
+.lemtitle p{
+    margin: 0;
+    color:grey;
+}
+.rightsidebox p{
+    padding: 10px;
+    color: gray;
+}

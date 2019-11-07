@@ -1,0 +1,175 @@
+.main{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    background-color: transparent;
+}
+.stand{
+    position: absolute;
+    width: 0;
+    height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+    border-bottom: 500px solid rgb(126, 126, 126);
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -0%)
+
+}
+.rotation{
+    animation: rotation 8s infinite linear;
+    margin: 0;
+    position: relative;
+    width: 75%;
+    height: 75%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    transform-origin: top left;
+    
+}
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 18px;
+    transform: translate(-50%, -50%)
+}
+.line1{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    border: 1px solid black;
+}
+.line3{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    border: 1px solid black;
+}
+.line2{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(120deg);
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    border: 1px solid black;
+}
+
+#car1{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top:50%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+#car2{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top: 7%;
+    left: 25%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+#car3{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top: 7%;
+    left: 75%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+#car4{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top: 93%;
+    left: 75%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+#car5{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top: 93%;
+    left: 25%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+#car6{
+    position: absolute;
+    width: 10%;
+    height:20%;
+    background: red;
+    border: 0;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -0%);
+    transform-origin: top left;
+    animation: rotation2 8s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+            transform: rotate(0deg) translate(-50%, -50%);
+    }
+    to {
+            transform: rotate(359deg) translate(-50%, -50%);
+    }
+}
+@keyframes rotation2 {
+    from {
+            transform: rotate(0deg) translate(-50%, 0);
+    }
+    to {
+            transform: rotate(-359deg) translate(-50%, 0);
+    }
+}

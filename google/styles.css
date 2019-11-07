@@ -1,0 +1,152 @@
+body, html {
+	height:100%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 90%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif
+}
+* {box-sizing: border-box}
+.topnav{
+    padding:16px;
+    height: 60px;
+    width: 100%;
+    margin: auto;
+}
+.main{
+    width: 100%;
+    height: 75%;
+}
+.searchline{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.search{
+    width: 550px;
+    height: 40px;
+}
+.buttonsrow{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.buttons{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.buttons a{
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 13px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 110%;
+}
+.buttons a:hover{
+    border: 1px solid grey;
+}
+input[type=text] {
+    border-radius: 20px;
+    outline: none;
+    box-shadow: none;
+    border: 0.5pt solid rgb(190, 190, 190);
+    background-image: url('searchicon.png');
+    background-position: 9px 9px;
+    background-size: 4%;
+    background-repeat: no-repeat;
+    -webkit-transition: box-shadow 0.1s ease-in-out;
+    transition: box-shadow 0.1s ease-in-out;
+    padding-left: 35px;
+    font-size: 20pt;
+  }
+.search:focus {
+    box-shadow: 1px 1px 5px #a0a0a0;
+}
+.search:hover{
+    box-shadow: 1px 1px 5px #a0a0a0;
+}
+.googlelogo{
+    padding-top: 160px;
+    text-align: center;
+}
+.rightnav{
+    text-align: right;
+    width: 50%;
+    float: right;
+    padding: 5px;
+}
+.leftnav{
+    width: 50%;
+    text-align: left;
+    float: left;
+    padding: 10px;
+    
+}
+#signin{
+    background-color: #4285f4;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.topnav a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+.dots{
+    width: 20px;
+    padding: 0px;
+    transform: translate(0, 30%);
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color:whitesmoke;
+    color: black;
+}
+.topfoot{
+    padding: 12px;
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    color: rgb(88, 88, 88);
+    font-size: 104%;
+}
+.bottomfoot{
+    padding: 12px;
+    width: 100%;
+    margin: auto;
+}
+.bottomleft{
+    width: 50%;
+    float: left;
+}
+.bottomright{
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
+.bottomfoot a{
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    padding:10px;
+}
+.topfoot a {
+    padding-left: 20px;;
+}
