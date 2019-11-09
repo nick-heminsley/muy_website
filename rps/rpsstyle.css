@@ -158,7 +158,7 @@ input:checked ~ #message {
 #paper-rock:checked ~ #message h2::before,
 #scissors-paper:checked ~ #message h2::before
 {
-    content: "You Loose!"
+    content: "You Lose!"
 }
 
 #rock-rock:checked ~ #message h2::before,
